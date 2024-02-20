@@ -1,0 +1,19 @@
+{
+  "name": "lyrics-gen-app",
+  "version": "1.0.0",
+  "description": "for creating powerpoint slides for lyrics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oluwatobiloba1/lyrics-slide-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oluwatobiloba1/lyrics-slide-app/issues"
+  },
+  "homepage": "https://github.com/oluwatobiloba1/lyrics-slide-app#readme"
+}
