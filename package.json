@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/oluwatobiloba1/lyrics-slide-app/issues"
   },
-  "homepage": "https://github.com/oluwatobiloba1/lyrics-slide-app#readme"
+  "homepage": "https://github.com/oluwatobiloba1/lyrics-slide-app#readme",
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  }
 }

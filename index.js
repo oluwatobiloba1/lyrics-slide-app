@@ -1,11 +1,18 @@
-const fs =  require('node:fs');
 const path = require('node:path')
+const generateLyrics = require('./lyrics-gen')
+const readline = require('node:readline').createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
 
-// path.join('..','/new.txt')
+  readline.question(`input lyrics title:\n`, title => {
+    console.log(`the title: ${title}! will be saved as the file name`);
+    readline.close();
+    // const filename = __dirname+`/${title}`+'.pptx'
+    // console.log(path.join(__dirname,'../',`/${title}.pptx`))
+    generateLyrics(title)
+  });
 
-const lyricsBuffer = fs.readFileSync('lyrics-reader.txt',{encoding:'utf-8'})
-
-lyricsBuffer.split('\n')
 
 
 
